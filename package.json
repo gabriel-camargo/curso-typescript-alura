@@ -1,0 +1,23 @@
+{
+  "name": "curso-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-camargo/curso-typescript-alura.git"
+  },
+  "author": "Gabriel R. Camargo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-camargo/curso-typescript-alura/issues"
+  },
+  "homepage": "https://github.com/gabriel-camargo/curso-typescript-alura#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
