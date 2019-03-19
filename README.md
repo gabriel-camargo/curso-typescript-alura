@@ -2,7 +2,7 @@
 
 Rodar o seguinte comando para instalar o Typescript no projeto:
 
-```console
+```node
 $ npm install typescript --save-dev
 ```
 
@@ -10,12 +10,12 @@ Seguir o exemplo de tsconfig.json para compilar o código Typescript em um códi
 
 Adicione o seguinte código dentro de scripts no arquivo package.json:
 
-```json
+```js
 "compile": "tsc"
 ```
 
 Para compilar o código Typescript:
 
-```console
+```node
 $ npm run compile
 ```
