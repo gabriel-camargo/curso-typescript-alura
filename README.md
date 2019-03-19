@@ -11,7 +11,8 @@ Seguir o exemplo de tsconfig.json para compilar o código Typescript em um códi
 Adicione o seguinte código dentro de scripts no arquivo package.json:
 
 ```js
-"compile": "tsc"
+"compile": "tsc",
+"start": "tsc -w"
 ```
 
 Para compilar o código Typescript:
@@ -19,3 +20,11 @@ Para compilar o código Typescript:
 ```node
 $ npm run compile
 ```
+
+ou
+
+```
+$ npm start
+```
+
+Para compilar automaticamente ao alterar um arquivo .ts

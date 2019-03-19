@@ -1,9 +1,9 @@
 class Negociacao {
 
     // declaração das propriedades de classe
-   _data;
-   _quantidade;
-   _valor;
+   private _data;
+   private _quantidade;
+   private _valor;
 
    constructor(data, quantidade, valor) {
 
